@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans';
+
+  }
+
+
+
+  .clase-table {
+    display: flex;
+    margin:var(center);
+    text-align: center;
+    font-size:xx-large;
+    font-family: Arial;
+    font-size: small;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -moz-border-radius: 10px;
+    padding: 2px;
+    width:150px;
+    height: 70px; 
+    
+  }
+
+  .clase-othertable {
+    display: flex;
+    margin:var(center);
+    font-size:xx-large;
+    font-family: Arial;
+    font-size: small;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -moz-border-radius: 10px;
+    padding: 2px;
+    width:150px;
+    height: 70px; 
+  }
+
+  .container1 {
+   
+    grid-template-columns:1fr,2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+     "aside"
+     "section"
+     ;
+
+    width: auto;
+    height: 500px;
+    border: solid var(--color-text-primary) 0.7px;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+aside {
+  background-color: rgb(255, 255, 255);
+  grid-area: aside;
+  width: 567px;
+  height: 600px;
+  left: 153px;
+}
+
+section {
+  background-image:url(../Fondo.png);
+  grid-area: section;
+  float:right;
+  width: 587px;
+  height: 600px;
+  left: 853px;
+  
+}

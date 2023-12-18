@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(127, 227, 255);
+    text-align:center;
+}
+
+h1,h2{
+    text-align:center;
+    padding-top:25px;
+    padding-bottom:25px;
+  }
+
+ .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 1200px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--color-text-secondary);
+
+}
+
