@@ -1,0 +1,12 @@
+package org.generation.employee;
+/*
+ * La estructura básica para crear objetos es la siguiente
+ * 1.Atributos o propiedades
+ * 2.Método constructor (1 hasta n métodos)
+ * 3.Métodos del objeto (comportamiento)
+ * 4.Métodos Getters y Setters
+ * 5.Método toString
+ */
+public class Employee {
+
+}

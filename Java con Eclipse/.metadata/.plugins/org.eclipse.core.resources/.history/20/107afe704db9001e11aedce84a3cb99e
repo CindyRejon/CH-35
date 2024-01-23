@@ -1,0 +1,12 @@
+package org.generation.letras;
+/**
+ * Crear un programa que le solicite un mensaje al usuario y cuente cuantas vocales, consonantes, números y caracteres
+ * posee dicho mensaje
+ * Letras: métodos para interactuar con el usuario
+ * LetrasMain: vamos a instanciar los objetos
+ * Contador: métodos para contar vocales, consonantes, número y caracteres
+ */
+public class Letras {
+//Para que nuestro usuario interactué, definimos un Scanner
+	Scanner scanner = new Scanner(System.in);
+}

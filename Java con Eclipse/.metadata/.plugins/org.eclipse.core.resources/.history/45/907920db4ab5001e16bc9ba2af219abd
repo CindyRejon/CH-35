@@ -1,0 +1,47 @@
+package bucles;
+import java.util.Scanner;
+public class DoWhileBucle {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Ciclo Do While, evalua la expresión en la parte inferior del ciclo.
+		 * Por tanto, las declaraciones dentro del blo "do" siempre se ejecutan al menos una vez.
+		 *
+		 */
+		
+		//Cuenta del 1 al 20
+		int cuenta = 5;
+		do {
+			System.out.println("cuenta " +cuenta + " Total");
+			cuenta++;
+			
+		} while (cuenta < 0); //Output 1 ya se ejecuto al menos 1 vez
+		/*
+		 * Crear un programa para un cajero bancario
+		 * - El programa me mostrará 4 opciones:
+		 * 1. Consultar saldo
+		 * 2. Ingresar dinero
+		 * 3. Retirar dinero
+		 * 4. Salir
+		 * - Mostrar mensaje de bienvenida al usuario, darle contexto y solicitar que elija una opción (número)
+		 * - Mostrar al usuario la opción que eligió y permitir que elija otra opción
+		 * - El usuario puede salir del programa escribiendo 4 (salir)
+		 */
+	System.out.println("Bienvenido al banco City Generation, elija algunas de nuestras opciones disponibles. ");
+	
+	System.out.println("1. Consultar saldo");
+	System.out.println("2. Ingresar dinero");
+	System.out.println("3. Retirar dinero");
+	System.out.println("4. Salir, por favor tome su dinero");
+	
+	Scanner scr = new Scanner (System.in);
+	int opcion;
+	do {
+opcion = src.nextInt ();
+	}
+
+	}
+	
+	}
+}

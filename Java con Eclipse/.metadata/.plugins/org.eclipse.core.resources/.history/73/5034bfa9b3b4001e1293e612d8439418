@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package bucles;
+
+public class ForBucles {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * 
+		 * 
+		 */
+		 //for con variable local
+		  for (int numero = 0; numero <= 10; numero ++) {
+		  System.out.println("Numero es igual a" + numero);
+		  
+		}
+		
+		
+	} //metodo
+
+} //clase

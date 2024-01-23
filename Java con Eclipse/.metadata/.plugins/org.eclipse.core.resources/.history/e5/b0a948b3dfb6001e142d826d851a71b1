@@ -1,0 +1,10 @@
+package org.generation.collections;
+
+public class ArrayListCollections {
+
+	public static void main(String[] args) {
+		//****Arrays****// Usan corchetes [] y el array es de tipo string que se llama name y contiene todo dentro de = {}
+		
+        String [] name = {"Jonathan",};
+	}
+}

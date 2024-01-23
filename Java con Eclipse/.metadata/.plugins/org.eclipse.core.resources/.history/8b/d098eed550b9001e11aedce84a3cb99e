@@ -1,0 +1,36 @@
+package org.generation.letras;
+import java.util.Scanner;
+/**
+ * Crear un programa que le solicite un mensaje al usuario y cuente cuantas vocales, consonantes, números y caracteres
+ * posee dicho mensaje
+ * Letras: métodos para interactuar con el usuario
+ * LetrasMain: vamos a instanciar los objetos
+ * Contador: métodos para contar vocales, consonantes, número y caracteres
+ */
+
+	
+	//Metemos el Scanner dentro de un metodo
+	public String leerEntrada() {    //el metodo es leerEntrada
+		return scanner.nextLine(); //es line porque es tipo string
+	}
+	
+	/*Necesitamos establecer dos grupos de métodos:
+	 * Grupo1: métodos booleanos para determinarn si corresponde o no
+	 * Grupo2: Métodos que van a devolver el conteo de dichos caracteres*/
+	public class Contador {
+		//Grupo 1
+		public boolean esVocal(char caracter) {
+			return(caracter =='a' || caracter =='e' || caracter =='i' || caracter =='o' || caracter =='u');
+		}
+		public boolean esNumero(char caracter) {
+			//casting para poder utiliza la tabla ASCII, toma el caracter a y lo traduce a ASCII
+			return
+		}
+		public boolean esConsonante(char caracter) {
+			return
+		}
+		public boolean esSimbolo(char caracter) {
+			return
+			}
+		//Grupo 2
+	}

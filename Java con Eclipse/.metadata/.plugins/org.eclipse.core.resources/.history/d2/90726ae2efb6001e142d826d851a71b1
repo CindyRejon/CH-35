@@ -1,0 +1,20 @@
+package org.generation.exercises;
+
+/*
+ * Programa que permite que un usuario agregue nombre y apellido de estudiantes matriculados en una universidad. Posteriomente, muestra la lista de los estudiantes agregados.
+ * -- Requerimientos:
+ * 		> Utilizar ArrayList para guardar a los estudiantes
+ * 		> Scanner para interactuar con el usuario y permitir que agregue estudiantes
+ * 		> Loop para permitir que se agreguen varios estudiantes (do-while)
+ * 		> Opción para salir del loop con la palabra 'Salir' (if-else, try-catch, !=, switch son posibles opciones)
+ * 		> Mostrar lista de estudiantes (for-each) 
+ */
+ 
+public class SistemaEscolar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

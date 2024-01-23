@@ -1,0 +1,17 @@
+package org.generation.collections;
+
+import java.util.Arrays;
+
+public class ArrayListCollections {
+
+	public static void main(String[] args) {
+		//****Arrays****// Usan corchetes [] y el array es de tipo string que se llama name y contiene todo dentro de = {}
+		
+        String [] name = {"Jonathan", "Marco", "Rocio", "Lizbeth", "Arturo"};
+        //Imprimiendo Arrays, para que imprima cada elemento string se convierta en array, se pone Arrays.toString
+        System.out.println(Arrays.toString(name));
+        
+        int [] edades = {12, 3, 25, 55 , 69};
+        System.out.println(Arrays.toString(edades));
+	}
+}

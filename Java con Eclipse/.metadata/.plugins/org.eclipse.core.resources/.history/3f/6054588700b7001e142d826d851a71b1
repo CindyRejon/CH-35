@@ -1,0 +1,14 @@
+package org.generation.collections;
+import java.util.HashSet;
+
+
+public class HashSetCollection {
+
+	public static void main(String[] args) {
+		//HashSet es una clase de Collections donde cada elemento es único, es decir, no se repiten los elementos
+	HashSet<String> animals = new HashSet<String>();
+	
+
+	}
+
+}

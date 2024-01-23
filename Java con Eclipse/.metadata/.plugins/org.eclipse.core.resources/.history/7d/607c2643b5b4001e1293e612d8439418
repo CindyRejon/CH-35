@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package bucles;
+
+public class ForBucles {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * El ciclo For, nos proporciona una forma compacta de iterar sobre valores.
+		 * for (inicialización, condición, contador)
+		 * 
+		 * (incremento/decremento) {
+		 * bloque de codigo
+		 * }
+		 */
+		 //for con variable local
+		  for (int numero = 0; numero <= 10; numero ++) {
+		  System.out.println("Numero es igual a" + numero);
+		  
+		}
+		/*
+		//for con variable glocal
+		  int contador;
+		  for (contador = 1; contador <=5; contador ++) {
+			  System.out.println("La cuesta es " + contador);
+		  }
+		  
+		  */
+		  
+		  //Bucles anidados- Bucle dentro de otro bucle
+		  //Imprimir un triangulo con astericos
+		  int filas = 5;
+		  for (int i = 0; i < filas; i++)
+		  {
+			  //bloque de codigo que va iterar con el bucle
+			  for (int j= 0; j >=i; j++) {
+				  System.out.println("+");
+			  }
+			  System.out.println();
+		  }
+	} //metodo
+
+} //clase
